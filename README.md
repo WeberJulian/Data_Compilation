@@ -7,7 +7,7 @@ http://www.mediafire.com/view/5hdm63pad6cw29s/Out.bmp
 http://www.mediafire.com/view/mlk5tweibs6ggz0/Base.bmp
 
 
-Dans le terminal, navigez jusqu'a ce dossier
+Dans le terminal, navigez jusqu'a ce dossier puis executez :
 
 `python3 Data_Compilation`
 

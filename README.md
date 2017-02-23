@@ -9,11 +9,11 @@ http://www.mediafire.com/view/mlk5tweibs6ggz0/Base.bmp
 
 Dans le terminal, navigez jusqu'a ce dossier puis executez :
 
-`python3 Data_Compilation`
+`python3 Data_Compilation.py`
 
 ou par exemple :
 
-`python3 Data_Compilation 10000`
+`python3 Data_Compilation.py 10000`
 
 *Par défault ce nombre qui représente la taille du dataset est de **10000***
 

@@ -34,14 +34,15 @@ def moy(file):
     S = S /  mat.shape[0] / mat.shape[1]
     return S    
 
-    
-        
 
-if not os.path.exists("danger"):
-    os.makedirs("danger")
+if not os.path.exists("Dataset"):
+os.makedirs("Dataset")    
+     
+if not os.path.exists("Dataset/danger"):
+    os.makedirs("Dataset/danger")
     
-if not os.path.exists("safe"):
-    os.makedirs("safe")
+if not os.path.exists("Dataset/safe"):
+    os.makedirs("Dataset/safe")
     
 
 n=0
@@ -59,8 +60,8 @@ for filename in glob.glob('Out/*.jpg'):
     bg = a
     bd = b
     if ( temp >= bg and temp <= bd):
-        shutil.move("Base"+filename[3:],"safe"+"/"+filename[4:])
+        shutil.copy2("Base"+filename[3:],"Dataset/safe"+"/"+filename[4:])
     bg = bd
     bd = c
     if ( temp >= bg and temp <= bd):
-        shutil.move("Base"+filename[3:],"danger"+"/"+filename[4:])
+        shutil.copy2("Base"+filename[3:],"Dataset/danger"+"/"+filename[4:])

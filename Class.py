@@ -63,4 +63,4 @@ for filename in glob.glob('Out/*.jpg'):
     bg = bd
     bd = c
     if ( temp >= bg and temp <= bd):
-shutil.move("Base"+filename[3:],"danger"+"/"+filename[4:])
+        shutil.move("Base"+filename[3:],"danger"+"/"+filename[4:])

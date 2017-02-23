@@ -11,6 +11,7 @@ import shutil
 import random as rd
 import time as ti
 
+t1 = ti.clock()
 
 a,b,c = 0 , 95, 255 
 
@@ -65,3 +66,6 @@ for filename in glob.glob('Out/*.jpg'):
     bd = c
     if ( temp >= bg and temp <= bd):
         shutil.copy2("Base"+filename[3:],"Dataset/danger"+"/"+filename[4:])
+        
+t2 = ti.clock()
+print("Done in " + str(int(t2-t1)) + " secs")

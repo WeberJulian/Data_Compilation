@@ -10,7 +10,7 @@ Dans le terminal, navigez jusqu'a ce dossier
 
 ou par exemple :
 
-'python3 Data_Compilation 10000'
+"python3 Data_Compilation 10000"
 
 *Par défault ce nombre qui représente la taille du dataset est de **10000***
 

@@ -15,7 +15,9 @@ ou par exemple :
 
 Une fois executé, copiez *Class.py* dans le dossier *Collection_i* tout juste créé
 par exemple
+
 **cp Class.py /Collection_1**
+
 **cd Collection_1**
 
 Puis executez Class.py

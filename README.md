@@ -15,7 +15,7 @@ ou par exemple :
 
 `python3 Data_Compilation.py 10000`
 
-*Par défault ce nombre qui représente la taille du dataset est de ***10000**
+*Par défault ce nombre qui représente la taille du dataset est de **10000**
 
 
 
@@ -35,7 +35,7 @@ ou par exemple :
 
 `python3 Class.py 95`
 
-*Par défault ce nombre qui représente la valeur limite de séparation (threshold) est de***95**
+*Par défault ce nombre qui représente la valeur limite de séparation (threshold) est de **95**
 
 Votre Collection est maintenant prète et trié 
 

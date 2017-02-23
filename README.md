@@ -11,7 +11,7 @@ Dans le terminal, navigez jusqu'a ce dossier
 ou par exemple :
 **python3 Data_Compilation 10000**
 
-par défault ce nombre qui représente la taille du dataset est de **10000**
+*Par défault ce nombre qui représente la taille du dataset est de **10000***
 
 Une fois executé, copiez *Class.py* dans le dossier *Collection_i* tout juste créé
 par exemple
@@ -24,7 +24,8 @@ Puis executez Class.py
 
 ou par exemple :
 **python3 Class.py 95**
-par défault ce nombre qui représente la valeur limite de séparation *(threshold)* est de **95**
+
+*Par défault ce nombre qui représente la valeur limite de séparation *(threshold)* est de **95***
 
 Votre Collection est maintenant prète et trié 
 

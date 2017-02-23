@@ -6,28 +6,28 @@ http://www.mediafire.com/view/mlk5tweibs6ggz0/Base.bmp
 
 Dans le terminal, navigez jusqu'a ce dossier
 
-'python3 Data_Compilation'
+`python3 Data_Compilation`
 
 ou par exemple :
 
-"python3 Data_Compilation 10000"
+`python3 Data_Compilation 10000`
 
 *Par défault ce nombre qui représente la taille du dataset est de **10000***
 
 Une fois executé, copiez *Class.py* dans le dossier *Collection_i* tout juste créé
 par exemple
 
-'cp Class.py /Collection_1'
+`cp Class.py /Collection_1`
 
-'cd Collection_1'
+`cd Collection_1`
 
 Puis executez Class.py
 
-'python3 Class.py'
+`python3 Class.py`
 
 ou par exemple :
 
-'python3 Class.py 95'
+`python3 Class.py 95`
 
 *Par défault ce nombre qui représente la valeur limite de séparation *(threshold)* est de **95***
 

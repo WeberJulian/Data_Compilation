@@ -19,9 +19,9 @@ ou par exemple :
 
 
 
-Une fois executé, copiez *Class.py* dans le dossier *Collection_i* tout juste créé
+Une fois executé, copiez *Class.py* dans le dossier *Collection_i*  tout juste créé
 
-par exemple
+C'est à dire :
 
 `cp Class.py Collection_1`
 

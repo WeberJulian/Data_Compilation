@@ -1,6 +1,6 @@
 # Data_Compilation
 
-Téléchargez les deux image *Base.bmp* et *Out.bmp* et placez les dans ce dossier
+Téléchargez les deux images *Base.bmp* et *Out.bmp* et placez les dans ce dossier
 
 http://www.mediafire.com/view/5hdm63pad6cw29s/Out.bmp
 

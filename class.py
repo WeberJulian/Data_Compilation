@@ -38,11 +38,11 @@ def moy(file):
     
         
 
-if not os.path.exists(str((a+b)/2)):
-    os.makedirs(str((a+b)/2))
+if not os.path.exists("danger"):
+    os.makedirs("danger")
     
-if not os.path.exists(str((c+b)/2)):
-    os.makedirs(str((c+b)/2))
+if not os.path.exists("safe"):
+    os.makedirs("safe")
     
 
 n=0
@@ -60,11 +60,11 @@ for filename in glob.glob('Out/*.jpg'):
     bg = a
     bd = b
     if ( temp >= bg and temp <= bd):
-        shutil.move("Base"+filename[3:],str((bg+bd)/2)+"/"+filename[4:])
+        shutil.move("Base"+filename[3:],"danger"+"/"+filename[4:])
     bg = bd
     bd = c
     if ( temp >= bg and temp <= bd):
-        shutil.move("Base"+filename[3:],str((bg+bd)/2)+"/"+filename[4:])
+        shutil.move("Base"+filename[3:],"safe"+"/"+filename[4:])
     
 
         

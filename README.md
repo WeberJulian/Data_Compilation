@@ -17,6 +17,9 @@ ou par exemple :
 
 *Par défault ce nombre qui représente la taille du dataset est de 8000*
 
+Cette collection peut être utilisée telle quelle pour de la segmentation mais pour entrainer un classifier nous allons avoir besoin de les classer sous deux dossiers (danger et safe)
+
+
 
 
 Une fois executé, copiez *Class.py* dans le dossier *Collection_i*  tout juste créé
@@ -37,5 +40,5 @@ ou par exemple :
 
 *Par défault ce nombre qui représente la valeur limite de séparation (threshold) est de 95*
 
-Votre Collection est maintenant prète et trié 
+Votre Collection est maintenant prète et triée 
 

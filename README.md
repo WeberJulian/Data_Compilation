@@ -4,7 +4,7 @@
 
 Give a drone the ability to assess to safety of a landing zone underneath from a video feed and to look for a landing zone safe enough. To be able to test the results I'll implement a basic simulation.
 
-## Train the ConvNet (Inception) 
+## Train the ConvNet (InceptionV3) 
 
 To train the network, I picked a satelite image of a city and drawn a mask of "danger" where the brightness of a pixel represent the level of risk.
 

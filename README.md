@@ -32,6 +32,6 @@ After the training and the testing of the network, we can test our results with 
 
 *camera.py* simulate the live video feed by croping or rotating an image at the simulated position of the drone
 
-*simulation.py* use the train model to evaluate the safety of a zone and simulate the movements of the drone. We decide witch way to go by assessing the level of safety of both the right corner and left corner of the image.
+*simulation.py* use the train model to evaluate the safety of a zone and simulate the movements of the drone. We decide which way to go by assessing the level of safety of both the right corner and left corner of the image.
 
 ![simulation](simulation.png)
